@@ -3,31 +3,36 @@ html, body {
   height: 100%;
 }
 
-.container {
+.container.light {
   background-color: #dad4db;
   margin-top: 0;
   margin-bottom: 0;
   border: 0;
 }
 
-.navbar {
-  margin-top: 3%;
+.navbar.light, .navbar.dark {
+  margin-top: 4%;
   border: 0;
   border-radius: 0;
 }
 
-#menu-btn {
+#light-menu-btn {
   background-color: #e6e0e7;
   border: 2px solid #858386;
   margin: 4%;
 }
 
-a {
+.fa-moon-o {
+  padding: 0.7em;
+  font-size: 1.4em;
+}
+
+.light a {
   color: #000;
   text-decoration: none;
 }
 
-a:hover {
+.light a:hover {
   color: #323531;
   text-decoration: none;
 }
@@ -37,7 +42,7 @@ ul {
   font-size: 1.4em;
 }
 
-li:hover {
+.light > li:hover {
   background-color: #e6e0e7;
 }
 
@@ -45,13 +50,13 @@ li:hover {
   height: 100%;
 }
 
-#hi {
+#hi.light {
   margin: 2.5em 0 0 10%; 
   font-family: 'Muli';
   color: #0A7258;
 }
 
-h3 {
+h3.light {
   margin: 2.0em 0 0 15%;
   font-family: 'Muli'; 
   font-weight: bold;
